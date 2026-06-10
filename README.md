@@ -4,12 +4,11 @@ Estimates optimal chemotherapy treatment regimes for cancer patients using causa
 
 ## Methods
 
-- **S-Learner**: single model with treatment concatenated as a feature
-- **T-Learner**: separate model per treatment arm
+- **S-Learner**: single model with treatment concatenated as a feature, + an LSTM-based version
+- **T-Learner**: separate model per treatment arm, + an LSTM-based version
 - **BOWL**: outcome-weighted policy learning via pairwise classification
 - **Causal Forest**: doubly-robust CATE estimator via `econml`
 - **DynamicDML**: panel-data CATE estimator for longitudinal data
-- **CRN**: Counterfactual Recurrent Network (GRU-based sequence model)
 
 ## Requirements
 
@@ -20,10 +19,10 @@ Estimates optimal chemotherapy treatment regimes for cancer patients using causa
   
 uv dependencies:
 - `numpy`, `pandas`, `scikit-learn`, `scipy`
-- `econml` — Causal Forest and DynamicDML estimators
-- `torch` — LSTM and CRN models
-- `matplotlib`, `seaborn` — plotting
-- `pytest` — running tests (optional, dev only)
+- `econml` - Causal Forest and DynamicDML estimators
+- `torch` - LSTM and CRN models
+- `matplotlib`, `seaborn` - plotting
+- `pytest` - running tests (optional, dev only)
 
 All dependencies are declared in `pyproject.toml` and installed via `uv sync`.
 
@@ -52,7 +51,7 @@ uv run python -m src.crn.preprocess
 # Outputs: src/crn/preprocessed/
 ```
 
-**Step 3: Generate semi-synthetic counterfactuals**
+**Step 3: Generate equation-based semi-synthetic counterfactuals**
 
 ```bash
 uv run python -m src.preprocess.semisynth_gen
@@ -71,6 +70,9 @@ uv run python -m src.preprocess.synth_gen --n_train 12000 --n_test 3000 --seed 4
 ```bash
 # Semi-synthetic data (default)
 uv run python main.py --data semi
+
+# CRN-based semi-synthetic data
+uv run python main.py --data crn
 
 # Fully synthetic data
 uv run python main.py --data synth
