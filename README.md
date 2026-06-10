@@ -1,4 +1,4 @@
-# ChemotherapyRegimeModel
+# Causal Inference for Dynamic Chemotherapy Treatment Regimes
 
 Estimates optimal chemotherapy treatment regimes for cancer patients using causal inference. Five methods are trained and compared on semi synthetic data generated from real EORTC QLQ-C30 quality of life measurements.
 
@@ -16,6 +16,7 @@ Estimates optimal chemotherapy treatment regimes for cancer patients using causa
 - Python 3.12+
 - [uv](https://docs.astral.sh/uv/) (package manager)
 - Doxygen
+- Usable EORTC QLQ-C30 dataset
   
 uv dependencies:
 - `numpy`, `pandas`, `scikit-learn`, `scipy`
