@@ -1,0 +1,50 @@
+This is BibTeX, Version 0.99d (TeX Live 2024)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: report.aux
+The style file: alpha.bst
+Database file #1: sample.bib
+Warning--I didn't find a database entry for "K_nzel_2019"
+Warning--I didn't find a database entry for "chernozhukov2024doubledebiasedmachinelearningtreatment"
+Warning--I didn't find a database entry for "shalit2017estimatingindividualtreatmenteffect"
+You've used 8 entries,
+            2543 wiz_defined-function locations,
+            605 strings with 6323 characters,
+and the built_in function-call counts, 3690 in all, are:
+= -- 338
+> -- 259
+< -- 3
++ -- 96
+- -- 96
+* -- 286
+:= -- 635
+add.period$ -- 22
+call.type$ -- 8
+change.case$ -- 68
+chr.to.int$ -- 8
+cite$ -- 8
+duplicate$ -- 107
+empty$ -- 228
+format.name$ -- 102
+if$ -- 728
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 3
+newline$ -- 42
+num.names$ -- 24
+pop$ -- 80
+preamble$ -- 1
+purify$ -- 77
+quote$ -- 0
+skip$ -- 103
+stack$ -- 0
+substring$ -- 139
+swap$ -- 20
+text.length$ -- 3
+text.prefix$ -- 1
+top$ -- 0
+type$ -- 64
+warning$ -- 0
+while$ -- 28
+width$ -- 13
+write$ -- 99
+(There were 3 warnings)

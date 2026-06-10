@@ -1,0 +1,138 @@
+\relax 
+\providecommand \babel@aux [2]{\global \let \babel@toc \@gobbletwo }
+\@nameuse{bbl@beforestart}
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\babel@aux{english}{}
+\citation{bica2020estimatingcounterfactualtreatmentoutcomes}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{3}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Development}{3}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.1}Use Case}{3}{subsection.2.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {2.2}Requirements}{3}{subsection.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.1}Functional Requirements}{3}{subsubsection.2.2.1}\protected@file@percent }
+\citation{K_nzel_2019}
+\citation{chernozhukov2024doubledebiasedmachinelearningtreatment}
+\citation{lewis2021double}
+\citation{shalit2017estimatingindividualtreatmenteffect}
+\citation{shalit2017estimatingindividualtreatmenteffect}
+\citation{bica2020estimatingcounterfactualtreatmentoutcomes}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {2.2.2}Non-Functional Requirements}{4}{subsubsection.2.2.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}State of the Art}{4}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Causal effect estimation}{4}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Counterfactual generation}{4}{section*.3}\protected@file@percent }
+\citation{eortc_reference_values_2008}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Material and Methods}{5}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.1}Theoretical Background}{5}{subsection.4.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.2}Theoretical Assumptions}{5}{subsection.4.2}\protected@file@percent }
+\newlabel{sec:assumptions}{{4.2}{5}{Theoretical Assumptions}{subsection.4.2}{}}
+\newlabel{sec:assumptions@cref}{{[subsection][2][4]4.2}{[1][5][]5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.3}Dataset}{5}{subsection.4.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Summary of the chemotherapy QoL dataset. An item column corresponds to a questionnaire question.}}{5}{table.caption.4}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:dataset_summary}{{1}{5}{Summary of the chemotherapy QoL dataset. An item column corresponds to a questionnaire question}{table.caption.4}{}}
+\newlabel{tab:dataset_summary@cref}{{[table][1][]1}{[1][5][]5}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.4}Basic Workflow}{6}{subsection.4.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Component diagram of the implementation. Preprocessing feeds either the CRN or the semi-synthetic generator, while the fully synthetic generator runs independently of the real data. The output of the selected generator is consumed by \texttt  {train.py}. All five estimators provide the \texttt  {CausalEstimator} interface and, except for BOWL, also \texttt  {OutcomePredictor}. \mbox  {S-Learner} and \mbox  {T-Learner} additionally accept an \texttt  {LSTMRegressor} through the \texttt  {Regressor} interface.}}{6}{figure.caption.5}\protected@file@percent }
+\newlabel{fig:component-diagram}{{1}{6}{Component diagram of the implementation. Preprocessing feeds either the CRN or the semi-synthetic generator, while the fully synthetic generator runs independently of the real data. The output of the selected generator is consumed by \texttt {train.py}. All five estimators provide the \texttt {CausalEstimator} interface and, except for BOWL, also \texttt {OutcomePredictor}. \mbox {S-Learner} and \mbox {T-Learner} additionally accept an \texttt {LSTMRegressor} through the \texttt {Regressor} interface}{figure.caption.5}{}}
+\newlabel{fig:component-diagram@cref}{{[figure][1][]1}{[1][5][]6}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.5}Data Pipelines}{7}{subsection.4.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.1}Preprocessing}{7}{subsubsection.4.5.1}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Distribution of visits across chemotherapy regimens in the raw dataset. The single \texttt  {NaN} entry corresponds to a visit with no recorded regimen.}}{7}{figure.caption.6}\protected@file@percent }
+\newlabel{fig:regimen_distribution}{{2}{7}{Distribution of visits across chemotherapy regimens in the raw dataset. The single \texttt {NaN} entry corresponds to a visit with no recorded regimen}{figure.caption.6}{}}
+\newlabel{fig:regimen_distribution@cref}{{[figure][2][]2}{[1][7][]7}{}{}{}}
+\citation{bica2020estimatingcounterfactualtreatmentoutcomes}
+\citation{bica2020estimatingcounterfactualtreatmentoutcomes}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.2}Semi-Synthetic Generation}{8}{subsubsection.4.5.2}\protected@file@percent }
+\newlabel{semisynth}{{4.5.2}{8}{Semi-Synthetic Generation}{subsubsection.4.5.2}{}}
+\newlabel{semisynth@cref}{{[subsubsection][2][4,5]4.5.2}{[1][8][]8}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.3}Counterfactual Recurrent Network}{8}{subsubsection.4.5.3}\protected@file@percent }
+\newlabel{sec:crn}{{4.5.3}{8}{Counterfactual Recurrent Network}{subsubsection.4.5.3}{}}
+\newlabel{sec:crn@cref}{{[subsubsection][3][4,5]4.5.3}{[1][8][]8}{}{}{}}
+\newlabel{eq:crn_input}{{3}{8}{Counterfactual Recurrent Network}{equation.3}{}}
+\newlabel{eq:crn_input@cref}{{[equation][3][]3}{[1][8][]8}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {4.5.4}Fully Synthetic Data Generation}{9}{subsubsection.4.5.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {4.6}Models}{9}{subsection.4.6}\protected@file@percent }
+\citation{chernozhukov2018}
+\citation{CHRIST201872}
+\citation{pytorch_lstm}
+\citation{818041}
+\newlabel{eq:lstm_input}{{15}{12}{LSTM using Metalearners}{equation.15}{}}
+\newlabel{eq:lstm_input@cref}{{[equation][15][]15}{[1][12][]12}{}{}{}}
+\newlabel{eq:lstm_forget}{{16}{12}{LSTM using Metalearners}{equation.16}{}}
+\newlabel{eq:lstm_forget@cref}{{[equation][16][]16}{[1][12][]12}{}{}{}}
+\newlabel{eq:lstm_candidate}{{17}{12}{LSTM using Metalearners}{equation.17}{}}
+\newlabel{eq:lstm_candidate@cref}{{[equation][17][]17}{[1][12][]12}{}{}{}}
+\newlabel{eq:lstm_output}{{18}{12}{LSTM using Metalearners}{equation.18}{}}
+\newlabel{eq:lstm_output@cref}{{[equation][18][]18}{[1][12][]12}{}{}{}}
+\newlabel{eq:lstm_cell}{{19}{12}{LSTM using Metalearners}{equation.19}{}}
+\newlabel{eq:lstm_cell@cref}{{[equation][19][]19}{[1][12][]12}{}{}{}}
+\newlabel{eq:lstm_hidden}{{20}{12}{LSTM using Metalearners}{equation.20}{}}
+\newlabel{eq:lstm_hidden@cref}{{[equation][20][]20}{[1][12][]12}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Unrolled LSTM computation for the T-Learner: each treatment arm trains an independent LSTM that consumes the patient's visit sequence and emits a treatment-specific outcome estimate $\hat  \mu _t(x)$ at the final step.}}{13}{figure.caption.14}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Evaluation}{13}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Evaluation Protocol}{13}{subsection.5.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Metrics}{13}{subsection.5.2}\protected@file@percent }
+\newlabel{sec:metrics}{{5.2}{13}{Metrics}{subsection.5.2}{}}
+\newlabel{sec:metrics@cref}{{[subsection][2][5]5.2}{[1][13][]13}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Results}{15}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Generator Results}{15}{subsection.6.1}\protected@file@percent }
+\citation{chernozhukov2016double}
+\citation{lewis2021double}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Factual outcome prediction comparison between the CRN and equation-based generators. The x-axis shows the observed factual outcomes, while the y-axis shows the generated factual predictions.}}{16}{figure.caption.15}\protected@file@percent }
+\newlabel{fig:factual_scatter_generators}{{4}{16}{Factual outcome prediction comparison between the CRN and equation-based generators. The x-axis shows the observed factual outcomes, while the y-axis shows the generated factual predictions}{figure.caption.15}{}}
+\newlabel{fig:factual_scatter_generators@cref}{{[figure][4][]4}{[1][15][]16}{}{}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Model Results}{16}{subsection.6.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.1}Equation-based generator result}{16}{subsubsection.6.2.1}\protected@file@percent }
+\newlabel{sec:res-eu}{{6.2.1}{16}{Equation-based generator result}{subsubsection.6.2.1}{}}
+\newlabel{sec:res-eu@cref}{{[subsubsection][1][6,2]6.2.1}{[1][16][]16}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Model summary on the equation-based semi-synthetic evaluation set (97 steps, 18 patients). PEHE and ATE error are shown for the $T_0$ vs.\ $T_1$ treatment pair.}}{16}{table.caption.16}\protected@file@percent }
+\newlabel{tab:semi_model_summary}{{2}{16}{Model summary on the equation-based semi-synthetic evaluation set (97 steps, 18 patients). PEHE and ATE error are shown for the $T_0$ vs.\ $T_1$ treatment pair}{table.caption.16}{}}
+\newlabel{tab:semi_model_summary@cref}{{[table][2][]2}{[1][16][]16}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Semi-synthetic equation-based model diagnostics (18 test patients).}}{17}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:semi_model_plots}{{5}{17}{Semi-synthetic equation-based model diagnostics (18 test patients)}{figure.caption.17}{}}
+\newlabel{fig:semi_model_plots@cref}{{[figure][5][]5}{[1][17][]17}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.2}CRN generator result}{18}{subsubsection.6.2.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Mean 95\% CI width on the semi-synthetic evaluation set (97 steps, 18 patients).}}{18}{table.caption.18}\protected@file@percent }
+\newlabel{tab:semi_ci_width}{{3}{18}{Mean 95\% CI width on the semi-synthetic evaluation set (97 steps, 18 patients)}{table.caption.18}{}}
+\newlabel{tab:semi_ci_width@cref}{{[table][3][]3}{[1][18][]18}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Model summary on the CRN-based semi-synthetic evaluation set (97 steps, 18 patients). PEHE and ATE error are shown for the $T_0$ vs.\ $T_1$ treatment pair.}}{18}{table.caption.19}\protected@file@percent }
+\newlabel{tab:crn_model_summary}{{4}{18}{Model summary on the CRN-based semi-synthetic evaluation set (97 steps, 18 patients). PEHE and ATE error are shown for the $T_0$ vs.\ $T_1$ treatment pair}{table.caption.19}{}}
+\newlabel{tab:crn_model_summary@cref}{{[table][4][]4}{[1][18][]18}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Model diagnostics on the CRN-based semi-synthetic evaluation set (18 test patients).}}{19}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:crn_model_plots}{{6}{19}{Model diagnostics on the CRN-based semi-synthetic evaluation set (18 test patients)}{figure.caption.20}{}}
+\newlabel{fig:crn_model_plots@cref}{{[figure][6][]6}{[1][18][]19}{}{}{}}
+\@writefile{toc}{\contentsline {subsubsection}{\numberline {6.2.3}Fully synthetic generator results}{20}{subsubsection.6.2.3}\protected@file@percent }
+\newlabel{sec:synth-results}{{6.2.3}{20}{Fully synthetic generator results}{subsubsection.6.2.3}{}}
+\newlabel{sec:synth-results@cref}{{[subsubsection][3][6,2]6.2.3}{[1][20][]20}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Mean 95\% CI width on the fully synthetic evaluation set (19\,461 steps, 3\,000 patients).}}{20}{table.caption.21}\protected@file@percent }
+\newlabel{tab:synth_ci_width}{{5}{20}{Mean 95\% CI width on the fully synthetic evaluation set (19\,461 steps, 3\,000 patients)}{table.caption.21}{}}
+\newlabel{tab:synth_ci_width@cref}{{[table][5][]5}{[1][20][]20}{}{}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Model summary on the fully synthetic evaluation set (19\,461 steps, 3\,000 patients). PEHE and ATE error are shown for the $T_0$ vs.\ $T_1$ treatment pair.}}{20}{table.caption.22}\protected@file@percent }
+\newlabel{tab:synth_model_summary}{{6}{20}{Model summary on the fully synthetic evaluation set (19\,461 steps, 3\,000 patients). PEHE and ATE error are shown for the $T_0$ vs.\ $T_1$ treatment pair}{table.caption.22}{}}
+\newlabel{tab:synth_model_summary@cref}{{[table][6][]6}{[1][20][]20}{}{}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Fully synthetic model diagnostics (3\,000 test patients).}}{21}{figure.caption.23}\protected@file@percent }
+\newlabel{fig:synth_model_plots}{{7}{21}{Fully synthetic model diagnostics (3\,000 test patients)}{figure.caption.23}{}}
+\newlabel{fig:synth_model_plots@cref}{{[figure][7][]7}{[1][20][]21}{}{}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Discussion}{22}{section.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Small sample size}{22}{section*.24}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{DynamicDML}{22}{section*.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Uncertainty intervals}{22}{section*.26}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{LSTM vs.\ non-sequential variants}{22}{section*.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Semi-synthetic data}{22}{section*.28}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{BOWL}{22}{section*.29}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Causal Forest}{22}{section*.30}\protected@file@percent }
+\bibstyle{alpha}
+\bibdata{sample}
+\bibcite{bica2020estimatingcounterfactualtreatmentoutcomes}{BAJvdS20}
+\bibcite{CHRIST201872}{CBNKL18}
+\bibcite{chernozhukov2016double}{CCD{$^{+}$}16}
+\bibcite{chernozhukov2018}{CCD{$^{+}$}18}
+\bibcite{818041}{GSC99}
+\bibcite{lewis2021double}{LS21}
+\bibcite{pytorch_lstm}{{PyT}25}
+\bibcite{eortc_reference_values_2008}{SFA{$^{+}$}08}
+\@writefile{toc}{\contentsline {paragraph}{Assumptions}{23}{section*.31}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Limitations}{23}{section*.32}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Clinical implications}{23}{section*.33}\protected@file@percent }
+\gdef \@abspage@last{23}

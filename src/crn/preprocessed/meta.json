@@ -1,0 +1,40 @@
+{
+  "feature_cols": [
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Physical_Functioning",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Role_Functioning",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Emotional_Functioning",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Cognitive_Functioning",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Global_Quality_of_Life",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Fatigue",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Nausea___Vomiting",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Pain",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Sleep_Disturbances",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Appetite_Loss",
+    "Geschlecht_enc",
+    "Initiale_Diagnose_enc",
+    "visit_nr"
+  ],
+  "subscale_cols": [
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Physical_Functioning",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Role_Functioning",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Emotional_Functioning",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Cognitive_Functioning",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Global_Quality_of_Life",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Fatigue",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Nausea___Vomiting",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Pain",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Sleep_Disturbances",
+    "EORTC_QLQ_C30__3_1__SUBSCALE_Appetite_Loss"
+  ],
+  "target_col": "time_to_last_days",
+  "treatment_col": "Chemotherapieregime_enc",
+  "top_n_regimes": [
+    "Cisplatin/Navelbine",
+    "Gemcitabine",
+    "Docetaxel"
+  ],
+  "n_features": 13,
+  "max_seq_len": 27,
+  "train_patients": 70,
+  "test_patients": 18
+}

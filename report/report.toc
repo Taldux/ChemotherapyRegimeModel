@@ -1,0 +1,41 @@
+\babel@toc {english}{}\relax 
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {section}{\numberline {2}Development}{3}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Use Case}{3}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.2}Requirements}{3}{subsection.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.1}Functional Requirements}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.2}Non-Functional Requirements}{4}{subsubsection.2.2.2}%
+\contentsline {section}{\numberline {3}State of the Art}{4}{section.3}%
+\contentsline {paragraph}{Causal effect estimation}{4}{section*.2}%
+\contentsline {paragraph}{Counterfactual generation}{4}{section*.3}%
+\contentsline {section}{\numberline {4}Material and Methods}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Theoretical Background}{5}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Theoretical Assumptions}{5}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.3}Dataset}{5}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.4}Basic Workflow}{6}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.5}Data Pipelines}{7}{subsection.4.5}%
+\contentsline {subsubsection}{\numberline {4.5.1}Preprocessing}{7}{subsubsection.4.5.1}%
+\contentsline {subsubsection}{\numberline {4.5.2}Semi-Synthetic Generation}{8}{subsubsection.4.5.2}%
+\contentsline {subsubsection}{\numberline {4.5.3}Counterfactual Recurrent Network}{8}{subsubsection.4.5.3}%
+\contentsline {subsubsection}{\numberline {4.5.4}Fully Synthetic Data Generation}{9}{subsubsection.4.5.4}%
+\contentsline {subsection}{\numberline {4.6}Models}{9}{subsection.4.6}%
+\contentsline {section}{\numberline {5}Evaluation}{13}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Evaluation Protocol}{13}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Metrics}{13}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Results}{15}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Generator Results}{15}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Model Results}{16}{subsection.6.2}%
+\contentsline {subsubsection}{\numberline {6.2.1}Equation-based generator result}{16}{subsubsection.6.2.1}%
+\contentsline {subsubsection}{\numberline {6.2.2}CRN generator result}{18}{subsubsection.6.2.2}%
+\contentsline {subsubsection}{\numberline {6.2.3}Fully synthetic generator results}{20}{subsubsection.6.2.3}%
+\contentsline {section}{\numberline {7}Discussion}{22}{section.7}%
+\contentsline {paragraph}{Small sample size}{22}{section*.24}%
+\contentsline {paragraph}{DynamicDML}{22}{section*.25}%
+\contentsline {paragraph}{Uncertainty intervals}{22}{section*.26}%
+\contentsline {paragraph}{LSTM vs.\ non-sequential variants}{22}{section*.27}%
+\contentsline {paragraph}{Semi-synthetic data}{22}{section*.28}%
+\contentsline {paragraph}{BOWL}{22}{section*.29}%
+\contentsline {paragraph}{Causal Forest}{22}{section*.30}%
+\contentsline {paragraph}{Assumptions}{23}{section*.31}%
+\contentsline {paragraph}{Limitations}{23}{section*.32}%
+\contentsline {paragraph}{Clinical implications}{23}{section*.33}%

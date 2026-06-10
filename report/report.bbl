@@ -1,0 +1,42 @@
+\newcommand{\etalchar}[1]{$^{#1}$}
+\begin{thebibliography}{BAJvdS20}
+
+\bibitem[BAJvdS20]{bica2020estimatingcounterfactualtreatmentoutcomes}
+Ioana Bica, Ahmed~M. Alaa, James Jordon, and Mihaela van~der Schaar.
+\newblock Estimating counterfactual treatment outcomes over time through adversarially balanced representations, 2020.
+
+\bibitem[CBNKL18]{CHRIST201872}
+Maximilian Christ, Nils Braun, Julius Neuffer, and Andreas~W. Kempa-Liehr.
+\newblock Time series feature extraction on basis of scalable hypothesis tests (tsfresh – a python package).
+\newblock {\em Neurocomputing}, 307:72--77, 2018.
+
+\bibitem[CCD{\etalchar{+}}16]{chernozhukov2016double}
+Victor Chernozhukov, Denis Chetverikov, Mert Demirer, Esther Duflo, Christian Hansen, and Whitney Newey.
+\newblock Double machine learning for treatment and causal parameters, 2016.
+
+\bibitem[CCD{\etalchar{+}}18]{chernozhukov2018}
+Victor Chernozhukov, Denis Chetverikov, Mert Demirer, Esther Duflo, Christian Hansen, Whitney Newey, and James Robins.
+\newblock Double/debiased machine learning for treatment and structural parameters.
+\newblock {\em The Econometrics Journal}, 21(1):C1--C68, 2018.
+
+\bibitem[GSC99]{818041}
+F.A. Gers, J.~Schmidhuber, and F.~Cummins.
+\newblock Learning to forget: continual prediction with lstm.
+\newblock In {\em 1999 Ninth International Conference on Artificial Neural Networks ICANN 99. (Conf. Publ. No. 470)}, volume~2, pages 850--855 vol.2, 1999.
+
+\bibitem[LS21]{lewis2021double}
+Greg Lewis and Vasilis Syrgkanis.
+\newblock Double/debiased machine learning for dynamic treatment effects, 2021.
+
+\bibitem[{PyT}25]{pytorch_lstm}
+{PyTorch Contributors}.
+\newblock \texttt{torch.nn.LSTM} --- {PyTorch} 2.11 documentation.
+\newblock \url{https://docs.pytorch.org/docs/2.11/generated/torch.nn.LSTM.html}, 2025.
+\newblock Accessed: 2026-05-01.
+
+\bibitem[SFA{\etalchar{+}}08]{eortc_reference_values_2008}
+Neil~W. Scott, Peter~M. Fayers, Neil~K. Aaronson, Andrew Bottomley, Alexander de~Graeff, Mogens Groenvold, Chad Gundy, Michael Koller, Morten~A. Petersen, and Mirjam A.~G. Sprangers.
+\newblock {\em {EORTC QLQ-C30 Reference Values}}.
+\newblock European Organisation for Research and Treatment of Cancer, 2008.
+
+\end{thebibliography}

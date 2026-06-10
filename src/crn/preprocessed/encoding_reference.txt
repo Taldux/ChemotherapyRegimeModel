@@ -1,0 +1,43 @@
+CATEGORICAL ENCODING REFERENCE
+============================================================
+Method : sklearn LabelEncoder (alphabetical order)
+Note   : missing values were filled with 'unbekannt' before encoding
+
+Column : Geschlecht  →  Geschlecht_enc
+----------------------------------------
+    0  =  0.0
+    1  =  1.0
+
+Column : Initiale_Diagnose  →  Initiale_Diagnose_enc
+----------------------------------------
+    0  =  Adenokarzinom d. Lunge NSCLC
+    1  =  Adenokarzinom der Lunge NSCL
+    2  =  Adenokarzinom li Oberlappen - NSCLC
+    3  =  Bronchogenes Adenokarzinom
+    4  =  Bronchuskarcinom NSCLC
+    5  =  Bronchuskarzinom NCLC
+    6  =  Bronchuskarzinom NSCL
+    7  =  Bronchuskarzinom NSCLC
+    8  =  Bronchuskarzinom NSCLC (Adenokarzinom)
+    9  =  Bronchuskarzinom NSCLC - Adneokarzinom
+   10  =  Bronchuskarzinom NSCLC Adeno
+   11  =  Bronchuskarzinom li. Oberlappen - Adenokarzinom
+   12  =  Mäßig differenz. Plattenpithelkarzinom G2 re Oberlappen NSCLC
+   13  =  NCLC
+   14  =  NSCLC
+   15  =  NSCLC (Plattenepithel) li.UL
+   16  =  NSCLC - Adenokarzinom
+   17  =  NSCLC li. Oberlappen
+   18  =  NSCLC links zentral
+   19  =  Plattenepithelkarzinom li. Oberlappen NSCLC
+   20  =  Squamöses Karzinom li Lungenoberlappen NSCLC
+   21  =  gering diff. adenoquamöses NSCLC im re. Unterlappen
+   22  =  mäßig bis gering diff.nichtkleinzelliges Bronchuskarzinom,
+   23  =  mäßig diff.Adenokarzinom der Lunge,  NSCLC
+   24  =  nichtkleinzelliges Lungenkarzinom
+
+Column : Chemotherapieregime  →  Chemotherapieregime_enc
+----------------------------------------
+    0  =  Cisplatin/Navelbine
+    1  =  Docetaxel
+    2  =  Gemcitabine
