@@ -27,7 +27,7 @@ MODEL_STYLES: dict = {
 # more than the default number of treatments.
 TREATMENT_COLORS: list = [
     "#2563EB", "#DC2626", "#16A34A", "#D97706", "#7C3AED",
-    "#0891B2", "#BE185D", "#065F46",
+    "#0891B2", "#BE185D", "#064F46",
 ]
 
 
